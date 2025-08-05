@@ -8,5 +8,85 @@
     "crumbs": [
       "Preface"
     ]
+  },
+  {
+    "objectID": "reading.html",
+    "href": "reading.html",
+    "title": "1  Reading List",
+    "section": "",
+    "text": "1.1 Intro",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#intro",
+    "href": "reading.html#intro",
+    "title": "1  Reading List",
+    "section": "",
+    "text": "Inside the Machine - An Illustrated Introduction to Microprocessors and Computer Architecture. Stokes\nHow Computers Really Work - A Hands-on Guide to the Inner Workings of the Machine. Justice",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#digital-logic",
+    "href": "reading.html#digital-logic",
+    "title": "1  Reading List",
+    "section": "1.2 Digital Logic",
+    "text": "1.2 Digital Logic\n\nDigital Design - Principles and Practices. Wakerly\nDigital Logic & Microprocessor Design with Interfacing (2nd ed). Enoch O Hwang\nDigital Design and Computer Architecture - Risc-V Edition. Harris, Harris\nDigital Electronics 1 - Combinational Logic Circuits. Tertulien Ndjountche\nDigital Electronics 2 - Sequential and Arithmetic Logic Circuits. Tertulien Ndjountche\nDigital Circuit Design for Computer Science Students - an Introductory Textbook. Wirth",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#computer-architecture-organization",
+    "href": "reading.html#computer-architecture-organization",
+    "title": "1  Reading List",
+    "section": "1.3 Computer Architecture & Organization",
+    "text": "1.3 Computer Architecture & Organization\n\nPrinciples of Computer Hardware. Clements\nComputer Organization and Architecture - Themes and Variations. Clements\nComputer Organization and Architecture. Null, Lobur\nPrinciples of Computer Organization and Assembly Language Using the Java Virtual Machine. Juola",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#computer-systems-higher-level-perspective",
+    "href": "reading.html#computer-systems-higher-level-perspective",
+    "title": "1  Reading List",
+    "section": "1.4 Computer Systems, Higher-level Perspective",
+    "text": "1.4 Computer Systems, Higher-level Perspective\n\nComputer Systems - A Programmer’s Perspective. Bryan, O’Hallaron\nDive into Systems - a Gentle Introduction to Computer Sysstems. Matthews, Newhall, Webb",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#fsms",
+    "href": "reading.html#fsms",
+    "title": "1  Reading List",
+    "section": "1.5 FSMs",
+    "text": "1.5 FSMs\n\nFinite State Machines in Hardware. Pedroni\nDigital Electronics 3 - Finite-state Machines. Ndjountche\nSwitching and Finite Automate Theory. Kohavi",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#hdls",
+    "href": "reading.html#hdls",
+    "title": "1  Reading List",
+    "section": "1.6 HDLs",
+    "text": "1.6 HDLs\n\n1.6.1 VHDL\n\nCircuit Design and Simulation with VHDL (2nd ed). Pedroni",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#assembly",
+    "href": "reading.html#assembly",
+    "title": "1  Reading List",
+    "section": "1.7 Assembly",
+    "text": "1.7 Assembly\n\nAssembly Language for x86 Processors. Irvine",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Reading List</span>"
+    ]
   }
 ]

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Igor Dimitrov">
-<meta name="dcterms.date" content="2024-05-17">
 
-<title>Digital Logic and Computer Architecture</title>
+<title>1&nbsp; Reading List – Digital Logic and Computer Architecture</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./reading.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./reading.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Reading List</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -110,13 +108,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./reading.html" class="sidebar-item-text sidebar-link">
+  <a href="./reading.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Reading List</span></span></a>
   </div>
 </li>
@@ -130,7 +128,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro"><span class="header-section-number">1.1</span> Intro</a></li>
+  <li><a href="#digital-logic" id="toc-digital-logic" class="nav-link" data-scroll-target="#digital-logic"><span class="header-section-number">1.2</span> Digital Logic</a></li>
+  <li><a href="#computer-architecture-organization" id="toc-computer-architecture-organization" class="nav-link" data-scroll-target="#computer-architecture-organization"><span class="header-section-number">1.3</span> Computer Architecture &amp; Organization</a></li>
+  <li><a href="#computer-systems-higher-level-perspective" id="toc-computer-systems-higher-level-perspective" class="nav-link" data-scroll-target="#computer-systems-higher-level-perspective"><span class="header-section-number">1.4</span> Computer Systems, Higher-level Perspective</a></li>
+  <li><a href="#fsms" id="toc-fsms" class="nav-link" data-scroll-target="#fsms"><span class="header-section-number">1.5</span> FSMs</a></li>
+  <li><a href="#hdls" id="toc-hdls" class="nav-link" data-scroll-target="#hdls"><span class="header-section-number">1.6</span> HDLs</a>
+  <ul class="collapse">
+  <li><a href="#vhdl" id="toc-vhdl" class="nav-link" data-scroll-target="#vhdl"><span class="header-section-number">1.6.1</span> VHDL</a></li>
+  </ul></li>
+  <li><a href="#assembly" id="toc-assembly" class="nav-link" data-scroll-target="#assembly"><span class="header-section-number">1.7</span> Assembly</a></li>
   </ul>
 </nav>
     </div>
@@ -139,26 +146,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Digital Logic and Computer Architecture</h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Reading List</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Igor Dimitrov </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 17, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -168,10 +163,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<section id="intro" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="intro"><span class="header-section-number">1.1</span> Intro</h2>
+<ul>
+<li>Inside the Machine - An Illustrated Introduction to Microprocessors and Computer Architecture. Stokes</li>
+<li>How Computers Really Work - A Hands-on Guide to the Inner Workings of the Machine. Justice</li>
+</ul>
+</section>
+<section id="digital-logic" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="digital-logic"><span class="header-section-number">1.2</span> Digital Logic</h2>
+<ul>
+<li>Digital Design - Principles and Practices. Wakerly</li>
+<li>Digital Logic &amp; Microprocessor Design with Interfacing (2nd ed). Enoch O Hwang</li>
+<li>Digital Design and Computer Architecture - Risc-V Edition. Harris, Harris</li>
+<li>Digital Electronics 1 - Combinational Logic Circuits. Tertulien Ndjountche</li>
+<li>Digital Electronics 2 - Sequential and Arithmetic Logic Circuits. Tertulien Ndjountche</li>
+<li>Digital Circuit Design for Computer Science Students - an Introductory Textbook. Wirth</li>
+</ul>
+</section>
+<section id="computer-architecture-organization" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="computer-architecture-organization"><span class="header-section-number">1.3</span> Computer Architecture &amp; Organization</h2>
+<ul>
+<li>Principles of Computer Hardware. Clements</li>
+<li>Computer Organization and Architecture - Themes and Variations. Clements</li>
+<li>Computer Organization and Architecture. Null, Lobur</li>
+<li>Principles of Computer Organization and Assembly Language Using the Java Virtual Machine. Juola</li>
+</ul>
+</section>
+<section id="computer-systems-higher-level-perspective" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="computer-systems-higher-level-perspective"><span class="header-section-number">1.4</span> Computer Systems, Higher-level Perspective</h2>
+<ul>
+<li>Computer Systems - A Programmer’s Perspective. Bryan, O’Hallaron</li>
+<li>Dive into Systems - a Gentle Introduction to Computer Sysstems. Matthews, Newhall, Webb</li>
+</ul>
+</section>
+<section id="fsms" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="fsms"><span class="header-section-number">1.5</span> FSMs</h2>
+<ul>
+<li>Finite State Machines in Hardware. Pedroni</li>
+<li>Digital Electronics 3 - Finite-state Machines. Ndjountche</li>
+<li>Switching and Finite Automate Theory. Kohavi</li>
+</ul>
+</section>
+<section id="hdls" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="hdls"><span class="header-section-number">1.6</span> HDLs</h2>
+<section id="vhdl" class="level3" data-number="1.6.1">
+<h3 data-number="1.6.1" class="anchored" data-anchor-id="vhdl"><span class="header-section-number">1.6.1</span> VHDL</h3>
+<ul>
+<li>Circuit Design and Simulation with VHDL (2nd ed). Pedroni</li>
+</ul>
+</section>
+</section>
+<section id="assembly" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="assembly"><span class="header-section-number">1.7</span> Assembly</h2>
+<ul>
+<li>Assembly Language for x86 Processors. Irvine</li>
+</ul>
 
 
 </section>
@@ -578,11 +625,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./reading.html" class="pagination-link" aria-label="Reading List">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Reading List</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
