@@ -1,0 +1,46 @@
+---
+title: "Reading List"
+---
+
+## Intro
+
+* Inside the Machine - An Illustrated Introduction to Microprocessors and Computer Architecture. Stokes
+* How Computers Really Work - A Hands-on Guide to the Inner Workings of the Machine. Justice
+
+## Digital Logic 
+
+* Digital Design - Principles and Practices. Wakerly
+* Digital Logic & Microprocessor Design with Interfacing (2nd ed). Enoch O Hwang
+* Digital Design and Computer Architecture - Risc-V Edition. Harris, Harris 
+* Digital Electronics 1 - Combinational Logic Circuits. Tertulien Ndjountche
+* Digital Electronics 2 - Sequential and Arithmetic Logic Circuits. Tertulien Ndjountche
+* Digital Circuit Design for Computer Science Students - an Introductory Textbook. Wirth
+
+## Computer Architecture & Organization
+
+* Principles of Computer Hardware. Clements
+* Computer Organization and Architecture - Themes and Variations. Clements
+* Computer Organization and Architecture. Null, Lobur
+* Principles of Computer Organization and Assembly Language Using the Java Virtual Machine. Juola   
+
+## Computer Systems, Higher-level Perspective
+
+* Computer Systems - A Programmer's Perspective. Bryan, O'Hallaron
+* Dive into Systems - a Gentle Introduction to Computer Sysstems. Matthews, Newhall, Webb
+
+## FSMs
+
+* Finite State Machines in Hardware. Pedroni
+* Digital Electronics 3 - Finite-state Machines. Ndjountche
+* Switching and Finite Automate Theory. Kohavi
+  
+## HDLs
+
+### VHDL
+
+* Circuit Design and Simulation with VHDL (2nd ed). Pedroni
+
+
+## Assembly
+
+* Assembly Language for x86 Processors. Irvine
